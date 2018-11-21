@@ -1,0 +1,32 @@
+/*
+    公用样式文件，可以分文件
+*/
+// @import '~antd/dist/antd.css';
+@import '~react-grid-layout/css/styles.css';
+@import '~react-resizable/css/styles.css';
+
+$green: #4db14d;
+
+html {
+  box-sizing: border-box;
+  font: 18pt 'Oswald';
+  letter-spacing: 0.05em;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.3em;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}

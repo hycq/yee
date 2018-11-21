@@ -1,0 +1,13 @@
+.DS_STORE
+*.log
+*.tgz
+
+node_modules
+dist
+lib
+coverage
+
+.idea/
+
+.vscode
+build/config/vendors-manifest.json

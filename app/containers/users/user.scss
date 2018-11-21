@@ -1,0 +1,63 @@
+
+main {
+  margin-top: 1em;
+}
+
+.user-sub-layout {
+  display: flex;
+  
+  aside {
+    width: 200px;
+    nav a {
+      color: #333;
+      padding: 0.2em 1em;
+      display: block;
+      &.active {
+        background-color: #555;
+        color: #fff;
+      }
+    }
+  }
+  .primary-content {
+    flex: 1;
+    margin-left: 2em;
+  }
+}
+
+
+.mock-browser {
+  background-color: #eee;
+  border-bottom: 1px solid #ccc;
+  padding: 0.3em;
+  font: 14pt Arial;
+  display: flex;
+  
+  .path {
+    margin-left: 0.5em;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    flex: 1;
+    display: flex;
+    color: #999;
+    border-radius: 3px;
+    
+    > div:last-child {
+      flex: 1;
+    }
+
+    input {
+      width: 100%;
+      border: none;
+      background-color: transparent;
+      font-weight: bold;
+      font-size: 1em;
+      padding: 0;
+      outline: none;
+      &:focus {
+        color: blue;
+      }
+    }
+  }
+  
+}

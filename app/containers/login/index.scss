@@ -1,0 +1,98 @@
+.login-container {
+    height: 100%;
+    background: #e1e5eb;
+    overflow: hidden;
+    .login-form {
+        position: relative;
+        width: 619px;
+        height: 100%;
+        margin: 0 auto;
+        background: url(./login_bg.jpg)  no-repeat;
+        background-size: 100% 100%;
+        .title {
+            position:  absolute;
+            left:  13%;
+            top: 34%;
+            i {
+                display: inline-block;
+                background: url(./logo.png) no-repeat;
+                width: 49px;
+                height: 47px;
+            }
+            span {
+                position: relative;
+                left: 8px;
+                top: -14px;
+                color: #182a57;
+                font-size: 23px;
+                font-weight: bold;
+            }
+        }
+        .form-input {      
+            position:  absolute;
+            left: 13%;
+            bottom: 47%;
+            input {      
+                border: none;
+                outline: none;
+                width: 220px;
+                display: inline-block;
+                position:  absolute;
+                &::-webkit-input-placeholder {
+                    color: #999;
+                    font-size: 16px;
+                }
+            }
+            .username {
+                bottom: 2px;
+            }
+            .password {
+                top: 37px;
+            }
+        }
+        .login-btn {
+            position: absolute;
+            left: 12%;
+            bottom: 29%;
+            width: 172px;
+            height: 37px;
+            border-radius: 20px;
+            border: none;
+            background: -webkit-linear-gradient(left, #1c82be, #162347);
+            background: linear-gradient(left, #1c82be, #162347);
+        }
+        .register {      
+            position:  absolute;
+            left: 15%;
+            bottom: 25%;
+            font-size:  12px;
+            color:  #999999;
+            span {
+                color: #072a80;
+                cursor: pointer;
+            }
+        }
+        .autologin {  
+            position:  absolute;
+            left: 52%;
+            bottom: 19%;
+            span {
+                font-size:  16px;
+                color:  #ffffff;
+            }
+            .ant-checkbox-inner {
+                background-color: #27456d;
+                border: 1px solid #fff;
+            }
+        }
+        .forgot-password {
+            position:  absolute;
+            left: 56%;
+            bottom: 15%;
+            font-size:  16px;
+            color:  #ffffff;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.list-layout {
+  height: 100%;
+
+  .app-layout {
+    overflow: auto;
+    left: inherit;
+    height: 100%;
+    width: inherit;
+    position: inherit;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, .65);
+  }
+}

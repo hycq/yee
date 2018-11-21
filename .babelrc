@@ -1,0 +1,36 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": [
+            "ie >= 10",
+            "Chrome >= 40"
+          ]
+        }
+      }
+    ],
+    [
+      "stage-0"
+    ],
+    [
+      "react"
+    ]
+  ],
+  "env": {
+    "test" : {
+      "presets": [["env"], "react"]
+    }
+  },
+  "plugins": [
+    ["transform-class-properties", {"spec": true}],
+    "transform-decorators-legacy",
+    "syntax-dynamic-import",
+    "dynamic-import-node",
+    "transform-runtime",
+    ["import", { "libraryName": "antd", "style": "false" }],
+    ["react-intl", { "messagesDir": "./locale/messages/", "enforceDescriptions": "false" }]
+  ]
+}
